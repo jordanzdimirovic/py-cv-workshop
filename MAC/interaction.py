@@ -10,7 +10,7 @@ from .common import Team
 import requests
 import cv2 as cv
 
-SERVER_URL = f"http://localhost:8085"
+SERVER_URL = f"http://codabyte.com.au:8085"
 
 endpoint = lambda e: f'{SERVER_URL}/{e}'
 
