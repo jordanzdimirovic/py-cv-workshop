@@ -6,7 +6,6 @@ from PIL import Image
 from MAC.interaction import fetch_ocr_task
 import cv2 as cv
 import numpy as np
-import pytesseract
 import easyocr
 from MAC.helpers import key_is_pressed
 import pyttsx3 as tts
