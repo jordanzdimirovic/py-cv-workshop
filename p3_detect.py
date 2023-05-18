@@ -64,10 +64,5 @@ while True:
         # Clear drawing
         drawn = np.full(cam_resolution, DRAWING_BG, dtype=np.uint8)
 
-    elif key_pressed == 'enter':
-        # Send image to server
-        submit_drawing(drawn)
-        print("Submitted")
-
     elif key_pressed == 'escape':
         break
